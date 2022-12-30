@@ -1,0 +1,20 @@
+#+TITLE: About
+#+AUTHOR: Alex Ameen
+
+=floco= is a Node.js package management and build tool powered by
+[[https://nixos.org][Nix]].
+
+=floco= is a bold departure from conventional Node.js package management tooling
+focusing on reproducibility, distributed caching, and sandboxing.
+
+Every package is built in a strictly declared sandbox isolated from the runtime
+system, much like an /OCI/ container.
+This approach allows packages to be built once and reused on any system that
+shares the same architecture and platform.
+Artifacts are cached locally and may be distributed among a cluster of systems
+allowing development environments to be created at more than twice the speed of
+=npm= or =yarn=.
+
+Underlying installers are implemented in =bash= and limit themselves to using
+=coreutils=, =findutils=, and =jq= improving reproducibility and readability
+compared to tooling implemented using a sprawling maze of JavaScript.
