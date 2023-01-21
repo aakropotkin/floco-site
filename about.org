@@ -1,9 +1,11 @@
 #+TITLE: About
 #+AUTHOR: Alex Ameen
 
+* Tagline
 =floco= is a Node.js package management and build tool powered by
 [[https://nixos.org][Nix]].
 
+* About
 =floco= is a bold departure from conventional Node.js package management tooling
 focusing on reproducibility, distributed caching, and sandboxing.
 
@@ -18,3 +20,17 @@ allowing development environments to be created at more than twice the speed of
 Underlying installers are implemented in =bash= and limit themselves to using
 =coreutils=, =findutils=, and =jq= improving reproducibility and readability
 compared to tooling implemented using a sprawling maze of JavaScript.
+
+* Resources
+** Colors
+- Black :: 1A1A1A
+- Orange on Black :: EB4E13
+- Orange on White :: CD4B02
+- Teal on White :: 028384
+- Teal on Black :: 32C8C9
+
+** Fonts
+- Heading :: Epilogue / 96 / Bold
+- Body :: Work Sans / 24 / Regular
+- Navigation Default :: Work Sans / 24 / Regular / White
+- Navigation Hover :: Work Sans / 24 / Regular / Teal on black / Underlined
