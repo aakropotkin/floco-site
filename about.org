@@ -2,7 +2,7 @@
 #+AUTHOR: Alex Ameen
 
 * Tagline
-=floco= is a Node.js package management and build tool powered by
+=floco= is a JavaScript package management and build tool powered by
 [[https://nixos.org][Nix]].
 
 * About
