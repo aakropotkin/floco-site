@@ -1,0 +1,31 @@
+#+TITLE: Features
+
+* Sandboxed Builds
+Every package is built in a strictly declared sandbox isolated from the runtime system, much like an OCI container. This approach allows packages to be built once and reused on any system that shares the same architecture and platform.
+
+- Declarative sandboxes provided by Nix make builds reproducible and deterministic.
+- Changes only trigger rebuilds for effected consumers.
+- If it works on your machine, it'll work for the rest of the team.
+- Builds run with no network connection, providing unrivaled security.
+
+* Programmatic Build Planning
+Build plans are formed from set of declarative files and a collection of Nix expressions that are easy to extend and customize.
+
+- Common formats such as package.json, package-lock.json, yarn.lock, and NPM registries can be loaded to generate package definitions.
+- Build plans are expressed using Nixpkgs' Modules, making them easy to compose, customize, extend, and integrate with existing Nix infrastructure.
+- Full control over resolution, node_modules/ tree shape, and more.
+- Iterate, permutate, and combine dependency versions to your heart's content.
+
+* Virtualized Package Registry
+Package resolution is abstracted giving you control over the set of available modules without proxies.
+
+- A declared pool of available packages can be formed from declaration files, or dynamically extended from remote servers.
+- Hoisting and synchronizing versions across multiple projects made simple.
+- Bulletproof patching and overriding for transitive dependencies.
+
+* Custom Install Strategies
+Declare or generate node_modules/ trees with a variety of install strategies or write your own.
+
+- Install using symlinks, hardlinks, or copies.
+- Hoisted, nested, and shallow strategies can be applied tree wide or to subtrees.
+- Tree builders are driven by simple bash scripts with a hook based interface.

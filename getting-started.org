@@ -1,0 +1,16 @@
+#+TITLE: Getting Started
+
+* Prerequisites
+- Linux or Darwin operating system.
+- Nix 2.12.0 or higher.
+
+* A Simple Project
+This example will get most trivial projects up and running. For projects which use workspaces or node-gyp installations, please refer to the full documentation section.
+
+#+BEGIN_SRC shell
+$ cd my-project;
+$ nix flake init -t github:aakropotkin/floco;
+$ nix run github:aakropotkin/floco#fromPlock;
+$ nix build -f ./. global -L;
+$ ls -R ./result;
+#+END_SRC

@@ -1,0 +1,17 @@
+#+TITLE: Styles
+
+
+* Resources
+** Colors
+- Black :: 1A1A1A
+- White :: FFFFFF
+- Orange on Black :: EB4E13
+- Orange on White :: CD4B02
+- Teal on White :: 028384
+- Teal on Black :: 32C8C9
+
+** Fonts
+- Heading :: Epilogue / 96 / Bold
+- Body :: Work Sans / 24 / Regular
+- Navigation Default :: Work Sans / 24 / Regular / White
+- Navigation Hover :: Work Sans / 24 / Regular / Teal on Black / Underlined

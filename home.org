@@ -1,0 +1,14 @@
+#+TITLE: Home
+
+* JavaScript Package Management Powered  by Nix
+floco is a bold departure from conventional Node.js package management tooling focusing on reproducibility, distributed caching, and sandboxing.
+
+* Why?
+** 3 Column with Images
+*** Control
+*** Speed
+*** Transparency
+
+** Button
+- Text: READ MORE
+- Link: Features Page
