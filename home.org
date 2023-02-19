@@ -6,8 +6,16 @@ floco is a bold departure from conventional Node.js package management tooling f
 * Why?
 ** 3 Column with Images
 *** Control
+Floco provides users with full control over build, resolution, node_modules/ tree shape, and dependency versions, including the ability to declare custom install strategies.
+
 *** Speed
+Barebones installers written in coreutils run with significantly reduced overhead.
+Unrivaled caching allows you to build packages once and reuse them on compatible systems.
+
 *** Transparency
+Floco's Virtualized Package Registry gives you explicit control over available modules without a proxy server.
+Sandboxed Builds are driven without network access, ensuring reproducibility and security.
+
 
 ** Button
 - Text: READ MORE
